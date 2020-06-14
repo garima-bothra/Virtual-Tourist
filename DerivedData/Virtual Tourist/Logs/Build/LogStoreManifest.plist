@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>4621130D-EB0D-4DF9-8534-420B0CAEE3ED</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4621130D-EB0D-4DF9-8534-420B0CAEE3ED.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Virtual Tourist project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Virtual Tourist</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Virtual Tourist</string>
+			<key>timeStartedRecording</key>
+			<real>611340582.05856001</real>
+			<key>timeStoppedRecording</key>
+			<real>611340585.19597602</real>
+			<key>title</key>
+			<string>Build Virtual Tourist</string>
+			<key>uniqueIdentifier</key>
+			<string>4621130D-EB0D-4DF9-8534-420B0CAEE3ED</string>
+		</dict>
+		<key>DF64630D-8268-48BF-814E-B88E139A5A99</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DF64630D-8268-48BF-814E-B88E139A5A99.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Virtual Tourist project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Virtual Tourist</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Virtual Tourist</string>
+			<key>timeStartedRecording</key>
+			<real>611350060.17691302</real>
+			<key>timeStoppedRecording</key>
+			<real>611350063.74247301</real>
+			<key>title</key>
+			<string>Build Virtual Tourist</string>
+			<key>uniqueIdentifier</key>
+			<string>DF64630D-8268-48BF-814E-B88E139A5A99</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

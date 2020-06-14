@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9413073A2470210800863F5D /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941307392470210800863F5D /* GCD.swift */; };
+		94C2A6992470761E003F99D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C2A6982470761E003F99D8 /* Info.plist */; };
+		A74E8F0F21484BCC00372CD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E8F0E21484BCC00372CD5 /* AppDelegate.swift */; };
+		A74E8F1121484BCC00372CD5 /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E8F1021484BCC00372CD5 /* PhotoAlbumViewController.swift */; };
+		A74E8F1921484BCE00372CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74E8F1821484BCE00372CD5 /* Assets.xcassets */; };
+		A74E8F1C21484BCE00372CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74E8F1A21484BCE00372CD5 /* LaunchScreen.storyboard */; };
+		A74E8F242150434200372CD5 /* AllConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E8F232150434200372CD5 /* AllConstants.swift */; };
+		A74E8F2A215071A200372CD5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E8F29215071A200372CD5 /* MapViewController.swift */; };
+		A7719C8E216C205C004ECD62 /* FlickrPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7719C8D216C205C004ECD62 /* FlickrPhotoCell.swift */; };
+		A7719C9A216DA8AA004ECD62 /* VirtualTouristCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7719C98216DA8AA004ECD62 /* VirtualTouristCoreData.xcdatamodeld */; };
+		A7719C9C217988FF004ECD62 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7719C9B217988FF004ECD62 /* DataController.swift */; };
+		A7719CA0217BE0FB004ECD62 /* FlickrObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7719C9F217BE0FB004ECD62 /* FlickrObject.swift */; };
+		A77C1E2D21570580009C43A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77C1E2C21570580009C43A9 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		941307392470210800863F5D /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		94C2A6982470761E003F99D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		A74E8F0B21484BCC00372CD5 /* Virtual Tourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virtual Tourist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74E8F0E21484BCC00372CD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A74E8F1021484BCC00372CD5 /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		A74E8F1821484BCE00372CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A74E8F1B21484BCE00372CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A74E8F232150434200372CD5 /* AllConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllConstants.swift; sourceTree = "<group>"; };
+		A74E8F29215071A200372CD5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A7719C8D216C205C004ECD62 /* FlickrPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCell.swift; sourceTree = "<group>"; };
+		A7719C99216DA8AA004ECD62 /* VirtualTouristCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualTouristCoreData.xcdatamodel; sourceTree = "<group>"; };
+		A7719C9B217988FF004ECD62 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		A7719C9F217BE0FB004ECD62 /* FlickrObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrObject.swift; sourceTree = "<group>"; };
+		A77C1E2C21570580009C43A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74E8F0821484BCC00372CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9413073524701B1500863F5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A77C1E2C21570580009C43A9 /* Main.storyboard */,
+				A74E8F1821484BCE00372CD5 /* Assets.xcassets */,
+				A74E8F1A21484BCE00372CD5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9413073824701B8D00863F5D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A74E8F0E21484BCC00372CD5 /* AppDelegate.swift */,
+				941307392470210800863F5D /* GCD.swift */,
+				94C2A6982470761E003F99D8 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A74E8F0221484BCC00372CD5 = {
+			isa = PBXGroup;
+			children = (
+				A74E8F0D21484BCC00372CD5 /* Virtual Tourist */,
+				A74E8F0C21484BCC00372CD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A74E8F0C21484BCC00372CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74E8F0B21484BCC00372CD5 /* Virtual Tourist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74E8F0D21484BCC00372CD5 /* Virtual Tourist */ = {
+			isa = PBXGroup;
+			children = (
+				A7719C9D217A61BF004ECD62 /* Model */,
+				A7719C9E217A6A7D004ECD62 /* Controllers */,
+				9413073524701B1500863F5D /* View */,
+				9413073824701B8D00863F5D /* Support */,
+			);
+			path = "Virtual Tourist";
+			sourceTree = "<group>";
+		};
+		A7719C9D217A61BF004ECD62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A74E8F232150434200372CD5 /* AllConstants.swift */,
+				A7719C9B217988FF004ECD62 /* DataController.swift */,
+				A7719C9F217BE0FB004ECD62 /* FlickrObject.swift */,
+				A7719C8D216C205C004ECD62 /* FlickrPhotoCell.swift */,
+				A7719C98216DA8AA004ECD62 /* VirtualTouristCoreData.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7719C9E217A6A7D004ECD62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A74E8F29215071A200372CD5 /* MapViewController.swift */,
+				A74E8F1021484BCC00372CD5 /* PhotoAlbumViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A74E8F0A21484BCC00372CD5 /* Virtual Tourist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74E8F2021484BCE00372CD5 /* Build configuration list for PBXNativeTarget "Virtual Tourist" */;
+			buildPhases = (
+				A74E8F0721484BCC00372CD5 /* Sources */,
+				A74E8F0821484BCC00372CD5 /* Frameworks */,
+				A74E8F0921484BCC00372CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Virtual Tourist";
+			productName = "Virtual Tourist";
+			productReference = A74E8F0B21484BCC00372CD5 /* Virtual Tourist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A74E8F0321484BCC00372CD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jonathan Glaser";
+				TargetAttributes = {
+					A74E8F0A21484BCC00372CD5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A74E8F0621484BCC00372CD5 /* Build configuration list for PBXProject "Virtual Tourist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A74E8F0221484BCC00372CD5;
+			productRefGroup = A74E8F0C21484BCC00372CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74E8F0A21484BCC00372CD5 /* Virtual Tourist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74E8F0921484BCC00372CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C2A6992470761E003F99D8 /* Info.plist in Resources */,
+				A77C1E2D21570580009C43A9 /* Main.storyboard in Resources */,
+				A74E8F1C21484BCE00372CD5 /* LaunchScreen.storyboard in Resources */,
+				A74E8F1921484BCE00372CD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74E8F0721484BCC00372CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74E8F1121484BCC00372CD5 /* PhotoAlbumViewController.swift in Sources */,
+				9413073A2470210800863F5D /* GCD.swift in Sources */,
+				A7719CA0217BE0FB004ECD62 /* FlickrObject.swift in Sources */,
+				A7719C9A216DA8AA004ECD62 /* VirtualTouristCoreData.xcdatamodeld in Sources */,
+				A74E8F0F21484BCC00372CD5 /* AppDelegate.swift in Sources */,
+				A7719C8E216C205C004ECD62 /* FlickrPhotoCell.swift in Sources */,
+				A74E8F242150434200372CD5 /* AllConstants.swift in Sources */,
+				A7719C9C217988FF004ECD62 /* DataController.swift in Sources */,
+				A74E8F2A215071A200372CD5 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A74E8F1A21484BCE00372CD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74E8F1B21484BCE00372CD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A74E8F1E21484BCE00372CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A74E8F1F21484BCE00372CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74E8F2121484BCE00372CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FL289G482T;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FizaRasool.VirtualTourist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A74E8F2221484BCE00372CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FL289G482T;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FizaRasool.VirtualTourist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A74E8F0621484BCC00372CD5 /* Build configuration list for PBXProject "Virtual Tourist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74E8F1E21484BCE00372CD5 /* Debug */,
+				A74E8F1F21484BCE00372CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74E8F2021484BCE00372CD5 /* Build configuration list for PBXNativeTarget "Virtual Tourist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74E8F2121484BCE00372CD5 /* Debug */,
+				A74E8F2221484BCE00372CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7719C98216DA8AA004ECD62 /* VirtualTouristCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7719C99216DA8AA004ECD62 /* VirtualTouristCoreData.xcdatamodel */,
+			);
+			currentVersion = A7719C99216DA8AA004ECD62 /* VirtualTouristCoreData.xcdatamodel */;
+			path = VirtualTouristCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A74E8F0321484BCC00372CD5 /* Project object */;
+}

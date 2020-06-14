@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "da20fb9e599eae27143902187a3827fa"
+build_time: [1589647698, 419025000]
+inputs:
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/Virtual Tourist/Controllers/PhotoAlbumViewController.swift": [1589647664, 283220455]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/Virtual Tourist/Support/GCD.swift": [1589646538, 221221868]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/Virtual Tourist/Model/FlickrObject.swift": [1589646295, 383698655]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/Virtual Tourist/Support/AppDelegate.swift": [1589635824, 653269264]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/Virtual Tourist/Model/FlickrPhotoCell.swift": [1589634982, 776758205]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/Virtual Tourist/Model/AllConstants.swift": [1589635145, 331310219]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/Virtual Tourist/Model/DataController.swift": [1589634542, 130755008]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/Virtual Tourist/Controllers/MapViewController.swift": [1589646448, 274223669]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/DerivedData/Virtual Tourist/Build/Intermediates.noindex/Virtual Tourist.build/Debug-iphonesimulator/Virtual Tourist.build/DerivedSources/CoreDataGenerated/VirtualTouristCoreData/Photo+CoreDataClass.swift": [1589643447, 780867522]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/DerivedData/Virtual Tourist/Build/Intermediates.noindex/Virtual Tourist.build/Debug-iphonesimulator/Virtual Tourist.build/DerivedSources/CoreDataGenerated/VirtualTouristCoreData/Photo+CoreDataProperties.swift": [1589643447, 783065905]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/DerivedData/Virtual Tourist/Build/Intermediates.noindex/Virtual Tourist.build/Debug-iphonesimulator/Virtual Tourist.build/DerivedSources/CoreDataGenerated/VirtualTouristCoreData/Pin+CoreDataClass.swift": [1589643447, 779057101]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/DerivedData/Virtual Tourist/Build/Intermediates.noindex/Virtual Tourist.build/Debug-iphonesimulator/Virtual Tourist.build/DerivedSources/CoreDataGenerated/VirtualTouristCoreData/Pin+CoreDataProperties.swift": [1589643447, 781852786]
+  "/Users/fizarasool27/Downloads/VirtualTourist-master/DerivedData/Virtual Tourist/Build/Intermediates.noindex/Virtual Tourist.build/Debug-iphonesimulator/Virtual Tourist.build/DerivedSources/CoreDataGenerated/VirtualTouristCoreData/VirtualTouristCoreData+CoreDataModel.swift": [1589643447, 773358399]

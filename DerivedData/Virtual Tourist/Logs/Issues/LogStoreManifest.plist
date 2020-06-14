@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>D37BAF8A-C894-4DE2-BFC4-3070E9D68E1A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>D37BAF8A-C894-4DE2-BFC4-3070E9D68E1A.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>Virtual_Tourist-fkcxwwtoilbtkmachonwakhprqid</string>
+			<key>timeStartedRecording</key>
+			<real>611350060.19696903</real>
+			<key>timeStoppedRecording</key>
+			<real>611350063.72436202</real>
+			<key>title</key>
+			<string>Build target Virtual Tourist</string>
+			<key>uniqueIdentifier</key>
+			<string>D37BAF8A-C894-4DE2-BFC4-3070E9D68E1A</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
